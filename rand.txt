@@ -1,0 +1,20 @@
+school-website/
+│
+├── index.html
+├── css/
+│   └── style.css
+├── js/
+│   └── script.js
+└── images/
+    ├── logo.png
+    ├── slider1.jpg
+    ├── slider2.jpg
+    ├── slider3.jpg
+    ├── school.jpg
+    ├── principal.jpg
+    ├── g1.jpg
+    ├── g2.jpg
+    ├── g3.jpg
+    ├── g4.jpg
+    ├── g5.jpg
+    └── g6.jpg
