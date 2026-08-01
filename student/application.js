@@ -92,7 +92,7 @@ function fillData(data){
     data.motherName;
 
     document.getElementById("dob").innerHTML =
-    data.dob;
+    data.dob.split("T")[0];
 
     document.getElementById("gender").innerHTML =
     data.gender;
