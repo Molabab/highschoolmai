@@ -168,3 +168,30 @@ form.addEventListener("submit", async function (e) {
     }
 
 });
+/* ==========================================
+   Submit codowan 
+========================================== */
+
+const button = document.getElementById("btn");
+
+button.addEventListener("click", codowan_time);
+
+function codowan_time() {
+
+    let time = 10;
+
+    let timer = setInterval(function () {
+
+        document.getElementById("codowan").innerHTML = `⏳ Please wait... ${time} sec`;
+        document.getElementById("codowan").style.color="red";
+
+        time--;
+
+        if (time < 0) {
+            clearInterval(timer); // Timer बंद
+            document.getElementById("codowan").innerHTML = "✅ Done";
+        }
+
+    }, 1000);
+
+}
