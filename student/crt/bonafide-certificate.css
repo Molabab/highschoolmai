@@ -1,0 +1,280 @@
+/*=====================================================
+  RAJKIYEKRIT +2 HIGH SCHOOL MAI
+  Bonafide Certificate
+======================================================*/
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+
+    background:#e9ecef;
+
+    font-family:"Times New Roman",serif;
+
+    color:#000;
+
+}
+
+.certificate{
+
+    width:210mm;
+
+    min-height:297mm;
+
+    margin:20px auto;
+
+    background:#fff;
+
+    padding:25mm 20mm;
+
+    border:2px solid #000;
+
+    box-shadow:0 5px 20px rgba(0,0,0,.15);
+
+}
+
+/*==========================
+        HEADER
+==========================*/
+
+.header{
+
+    text-align:center;
+
+    border-bottom:2px solid #000;
+
+    padding-bottom:15px;
+
+    margin-bottom:10px;
+
+}
+
+.header img{
+
+    width:80px;
+
+    height:80px;
+
+    margin-bottom:10px;
+
+}
+
+.header h2{
+
+    font-size:30px;
+
+    font-weight:bold;
+
+}
+
+.header h3{
+
+    font-size:24px;
+
+    margin:5px 0;
+
+    letter-spacing:1px;
+
+}
+
+.header p{
+
+    font-size:16px;
+
+    margin:3px 0;
+
+}
+
+/*==========================
+    CERTIFICATE TOP
+==========================*/
+
+.certificate-top{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    margin-top:20px;
+
+    margin-bottom:px;
+
+    font-size:18px;
+
+}
+
+.certificate-top span{
+
+    font-weight:bold;
+
+}
+
+/*==========================
+        TITLE
+==========================*/
+
+.title{
+
+    text-align:center;
+
+    margin-bottom:30px;
+
+}
+
+.title h1{
+
+    display:inline-block;
+
+    border-bottom:2px solid #000;
+
+    padding-bottom:5px;
+
+    font-size:30px;
+
+    letter-spacing:2px;
+
+}
+/*==========================
+    CERTIFICATE CONTENT
+==========================*/
+
+.content{
+
+    font-size:19px;
+
+    line-height:1.9;
+
+    text-align:justify;
+
+    margin-bottom:20px;
+
+}
+
+.content p{
+
+    margin-bottom:18px;
+
+}
+
+/*==========================
+    DETAILS TABLE
+==========================*/
+
+.details{
+
+    width:100%;
+
+    border-collapse:collapse;
+
+    margin-top:10px;
+
+    margin-bottom:10px;
+
+}
+
+
+
+.details td{
+
+    
+
+    font-size:18px;
+
+    vertical-align:top;
+
+}
+
+.details td:first-child{
+
+    width:42%;
+
+    font-weight:bold;
+
+}
+
+.details span{
+
+    font-weight:600;
+
+    color:#000;
+
+}
+
+/*==========================
+      DECLARATION
+==========================*/
+
+.declaration{
+
+    margin-top:10px;
+
+    text-align:justify;
+
+    font-size:17px;
+
+}
+
+/*==========================
+      SIGNATURE
+==========================*/
+
+.signature-section{
+
+    margin-top:50px;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:flex-end;
+
+}
+
+.left-sign{
+
+    width:180px;
+
+    text-align:center;
+
+}
+
+.left-sign p{
+
+    border-top:1px solid #000;
+
+
+    font-size:16px;
+
+}
+
+.right-sign{
+
+    width:260px;
+
+    text-align:center;
+    margin-top:30px;
+
+}
+
+.right-sign p:first-child{
+
+    border-top:1px solid #000;
+
+    padding-top:8px;
+
+    font-weight:bold;
+    
+
+}
+
+.right-sign p{
+
+    font-size:16px;
+
+    margin-top:10px;
+
+}
