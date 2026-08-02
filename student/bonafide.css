@@ -1,0 +1,282 @@
+/* ======================================================
+   HIGH SCHOOL +2 MAI
+   Bonafide Certificate Application
+====================================================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;
+}
+
+body{
+    background:#f4f7fb;
+}
+
+/* Container */
+
+.container{
+    max-width:1000px;
+}
+
+/* Header */
+
+header{
+    text-align:center;
+}
+
+header img{
+    width:90px;
+    height:90px;
+    object-fit:contain;
+}
+
+h2{
+    font-weight:700;
+    color:#0d6efd;
+}
+
+h5{
+    font-weight:600;
+}
+
+/* Card */
+
+.card{
+    border:none;
+    border-radius:12px;
+    overflow:hidden;
+}
+
+.card-header{
+    padding:15px;
+    font-size:18px;
+    font-weight:600;
+}
+
+.card-body{
+    padding:25px;
+}
+
+/* Labels */
+
+.form-label{
+    font-weight:600;
+    margin-bottom:6px;
+}
+
+/* Inputs */
+
+.form-control,
+.form-select{
+
+    border-radius:8px;
+
+    padding:10px;
+
+    min-height:45px;
+
+    border:1px solid #ced4da;
+
+    transition:.3s;
+
+}
+
+.form-control:focus,
+.form-select:focus{
+
+    border-color:#198754;
+
+    box-shadow:0 0 6px rgba(25,135,84,.25);
+
+}
+
+/* Readonly */
+
+input[readonly]{
+
+    background:#eef7ff;
+
+    font-weight:bold;
+
+}
+
+/* Small Text */
+
+small{
+
+    color:#777;
+
+}
+
+/* Alert */
+
+.alert{
+
+    border-radius:10px;
+
+}
+
+/* Declaration */
+
+.form-check{
+
+    padding:15px;
+
+}
+
+.form-check-label{
+
+    line-height:28px;
+
+}
+
+/* Button */
+
+.btn-success{
+
+    padding:12px 40px;
+
+    font-size:18px;
+
+    font-weight:600;
+
+    border-radius:8px;
+
+    transition:.3s;
+
+}
+
+.btn-success:hover{
+
+    transform:translateY(-2px);
+
+}
+
+/* Footer */
+
+footer{
+
+    text-align:center;
+
+    margin-top:30px;
+
+    color:#666;
+
+}
+
+/* Required */
+
+input:required,
+select:required,
+textarea:required{
+
+    background:#fffef7;
+
+}
+
+/* Textarea */
+
+textarea{
+
+    resize:none;
+
+}
+
+/* Mobile */
+
+@media(max-width:768px){
+
+.card-body{
+
+padding:15px;
+
+}
+
+.card-header{
+
+font-size:17px;
+
+}
+
+.btn-success{
+
+width:100%;
+
+}
+
+h2{
+
+font-size:24px;
+
+}
+
+h5{
+
+font-size:18px;
+
+}
+
+}
+
+/* Extra Small */
+
+@media(max-width:480px){
+
+.container{
+
+padding:10px;
+
+}
+
+.card-body{
+
+padding:12px;
+
+}
+
+.form-control,
+.form-select{
+
+font-size:15px;
+
+}
+
+.btn-success{
+
+font-size:16px;
+
+}
+
+}
+
+/* Print */
+
+@media print{
+
+body{
+
+background:#fff;
+
+}
+
+.btn-success{
+
+display:none;
+
+}
+
+.alert{
+
+display:none;
+
+}
+
+.card{
+
+box-shadow:none !important;
+
+}
+
+}
