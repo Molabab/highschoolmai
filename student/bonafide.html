@@ -205,18 +205,18 @@
                     <!-- Session -->
 
                     <div class="col-md-4 mb-3">
-
                         <label class="form-label">
                             Session
                         </label>
 
-                        <input
-                            type="text"
-                            class="form-control"
-                            id="session"
-                            placeholder="2026-28"
-                            required>
-
+                        <select class="form-select" id="session" required>
+                            <option value="">-- Select Session --</option>
+                            <option value="2024-26">2024-26</option>
+                            <option value="2025-27">2025-27</option>
+                            <option value="2026-28">2026-28</option>
+                            <option value="2027-29">2027-29</option>
+                            <option value="2028-30">2028-30</option>
+                        </select>
                     </div>
 
                     <!-- Stream -->
@@ -517,13 +517,14 @@
 
             <button
                 type="submit"
-                class="btn btn-success btn-lg px-5">
+                class="btn btn-success btn-lg px-5" id="btn">
 
                 Submit Application
 
             </button>
 
         </div>
+        <p id="codowan"></p>
 
     </form>
 
